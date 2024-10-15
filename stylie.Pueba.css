@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+
+.navbar-nav .nav-link,
+.btn-outline-light {
+    color: aqua;
+}
+.navbar-nav .nav-link:hover,
+.btn-outline-light:hover {
+   background-color: aqua;
+   color:white;
+}
+/* Estilo personalizado para aumentar el tamaño del h1 */
+h1{
+    font-size: 5rem; /* Ajusta este valor según el tamaño deseado */
+    color:gold;
+}
+h1 span {
+    color: aqua; /* Asegúrate de que el color sea el deseado */
+    font-size: 5rem;
+}
+body{
+    background-color: black;
+}
+.footer {
+    background-color: aqua;
+    padding: 20px;
+    text-align: center;
+}
+.footer-content h2,
+.footer-content h5 {
+    margin: 0;
+    padding: 5px;
+}
+.social-networks i {
+    font-size: 1.5em;
+    margin: 0 10px;
+    color: #333;
+}
+/* Contenido principal */
+.main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2em;
+  }
